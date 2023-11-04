@@ -269,7 +269,7 @@ Abordagem / Solução:
 •	Você também pode recriar o sistema de arquivos no dispositivo de bloco, pois ele formatará automaticamente o antigo
 •	Se você tiver um disco com uma partição/sistema de arquivos criados, você pode compartilhar o arquivo .vmdk com outra VM. Portanto, após montá-lo, você terá os mesmos dados que estavam no anterior.
 
-
+Estou curtindo o curso !!!
 
 
 
