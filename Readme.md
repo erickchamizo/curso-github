@@ -326,3 +326,37 @@ git Show (rash "0990d75230dd457f2e1e395d71a71585db68a507"
 Com esse comando vc consegue visualizar a modificação antes de comitar.
 # git diff
 # git diff --name-only
+
+
+
+#Descreva a File Status Lifecycle do GIT
+
+
+O ciclo de vida do status de um arquivo no Git descreve as diferentes etapas pelas quais um arquivo passa ao ser gerenciado por esse sistema de controle de versão. Aqui estão as principais fases do ciclo de vida do status dos arquivos no Git:
+
+#Untracked (Não Rastreado):
+Um arquivo que ainda não foi adicionado ao repositório Git é considerado não rastreado.
+O Git não monitora ou mantém o controle de alterações nesses arquivos.
+
+#Staged (Preparado):
+Um arquivo que foi marcado para ser incluído no próximo commit é considerado preparado ou "staged".
+Isso é feito usando o comando git add [nome do arquivo] para adicionar alterações específicas ou git add . para adicionar todas as alterações.
+
+#Unmodified (Não Modificado):
+Após um commit, os arquivos entram no estado não modificado.
+Isso significa que os arquivos no diretório de trabalho são iguais à versão do repositório.
+
+#Modified (Modificado):
+Quando você faz alterações em um arquivo que já está no repositório, ele entra no estado modificado.
+O Git reconhece que o arquivo foi alterado, mas essas alterações ainda não foram marcadas para o próximo commit.
+
+#Staged (Preparado):
+Se você editar um arquivo modificado e o marcar novamente usando git add, ele volta ao estado preparado.
+Isso significa que as alterações foram selecionadas para serem incluídas no próximo commit.
+
+#Committed (Cometido):
+Após executar git commit, as alterações preparadas são salvas no repositório como uma nova revisão.
+O estado do arquivo volta a ser não modificado, e o ciclo recomeça.
+
+
+Durante essas transições, você pode usar comandos como git status para verificar o estado atual dos seus arquivos e git diff para ver as diferenças entre as versões. Essas operações fazem parte do fluxo de trabalho do Git para rastrear e gerenciar as mudanças em seus projetos.
