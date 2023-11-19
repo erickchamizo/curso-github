@@ -275,4 +275,54 @@ Estou curtindo o curso !!!
 
 
 
+Comandos GIT Github
 
+
+Para configurar o user name:
+root@ubuntu-bionic:/home/erick# git config --global user.name "Erick Chamizo"
+
+
+Para configurar o e-mail:
+root@ubuntu-bionic:/home/erick# git config --global user.email "erickchamizos@gmail.com"
+
+Para cadastrar o editor de texto:
+root@ubuntu-bionic:/home/erick#  git config --global core.editor vim
+
+
+Para saber qual é o valor dos dados acima, exemplo do saber o user name e e-mail.
+root@ubuntu-bionic:/home/erick# git config user.name
+root@ubuntu-bionic:/home/erick# git config user.mail
+
+
+Para saber varias informações referente ao meu Git:
+root@ubuntu-bionic:/home/erick# git config --list
+user.name=Erick Chamizo
+user.mail=erickchamizos@gmail.com
+core.editor=vim
+
+
+Criar uma pasta guardar os projetos
+root@ubuntu-bionic:/home/erick/curso-git# mkdir curso-git
+
+
+Para inicializar o repositorio e ele se integrar ao git usar o comando abaixo, ele tem a função de inicializar o repositorio e enchergar as mudanças dentro do projeto.
+root@ubuntu-bionic:/home/erick/curso-git# git init
+
+
+Criando o primeiro arquivo:
+vim Readme.md
+
+
+
+Comandos para verificar os logs:
+
+git log
+git log --decorate
+git log --author="Erick Chamizo"
+git shortlog
+git log --graph
+git Show (rash "0990d75230dd457f2e1e395d71a71585db68a507"
+
+Com esse comando vc consegue visualizar a modificação antes de comitar.
+# git diff
+# git diff --name-only
