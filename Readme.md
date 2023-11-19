@@ -314,7 +314,7 @@ vim Readme.md
 
 
 
-Comandos para verificar os logs:
+#Comandos para verificar os logs:
 
 git log
 git log --decorate
