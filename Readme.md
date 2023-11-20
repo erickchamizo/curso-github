@@ -358,5 +358,6 @@ Isso significa que as alterações foram selecionadas para serem incluídas no p
 Após executar git commit, as alterações preparadas são salvas no repositório como uma nova revisão.
 O estado do arquivo volta a ser não modificado, e o ciclo recomeça.
 
-
 Durante essas transições, você pode usar comandos como git status para verificar o estado atual dos seus arquivos e git diff para ver as diferenças entre as versões. Essas operações fazem parte do fluxo de trabalho do Git para rastrear e gerenciar as mudanças em seus projetos.
+
+Diff
