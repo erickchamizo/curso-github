@@ -82,3 +82,5 @@ O estado do arquivo volta a ser não modificado, e o ciclo recomeça.
 Durante essas transições, você pode usar comandos como git status para verificar o estado atual dos seus arquivos e git diff para ver as diferenças 
 entre as versões. Essas operações fazem parte do fluxo de trabalho do Git para rastrear e gerenciar as mudanças em seus projetos.
 
+
+Teste de novo 
