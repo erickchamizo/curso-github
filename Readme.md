@@ -1,13 +1,3 @@
-#Comandos para verificar os logs:
-
-git log
-git log --decorate
-git log --author="Erick Chamizo"
-git shortlog
-git log --graph
-git Show (rash "0990d75230dd457f2e1e395d71a71585db68a507"
-
-
 Cenários de Solução de Problemas no Linux
 
 
