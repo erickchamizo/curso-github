@@ -1,3 +1,13 @@
+#Comandos para verificar os logs:
+
+git log
+git log --decorate
+git log --author="Erick Chamizo"
+git shortlog
+git log --graph
+git Show (rash "0990d75230dd457f2e1e395d71a71585db68a507"
+
+
 Cenários de Solução de Problemas no Linux
 
 
@@ -257,14 +267,4 @@ Abordagem / Solução:
 
 •	Solução de Problemas
 •	A melhor opção é criar o arquivo ACL de Diretórios/Arquivos antes de alterar as permissões em massa
-•	Crie o arquivo ACL antes de alterar as permissões (ou faça backup das permissões do arquivo): ~$ getfacl -R <dir> > permissions.acl
-•	Restaure as Permissões do Arquivo: ~$ setfacl --restore=permissions.acl
-•	Restauração a partir do Snapshot da VM (mas nem sempre é uma boa opção para produção)
-•	Recrie a VM (essa opção é segura para o futuro)
-•	Dicas Úteis Relacionadas à Partição de Disco:
-
-•	Dicas
-•	Após adicionar/anexar um novo disco a uma VM, você pode verificar seu status com o comando lsblk fazendo ~$echo 1 > /sys/block/sda/device/rescan
-•	Se você aumentar o tamanho de um disco existente, o espaço adicional será anexado ao disco existente sem afetar o sistema de arquivos e a partição já existentes
-•	Você também pode recriar o sistema de arquivos no dispositivo de bloco, pois ele formatará automaticamente o antigo
-•	Se você tiver um disco com uma partição/sistema de arquivos criados, você pode compartilhar o arquivo .vmdk com outra VM. Portanto, após montá-lo, você terá os mesmos dados que estavam no anterior.
+•	Crie o arquivo ACL antes de alterar as permissões (ou faça backup das permissões do arquivo): ~$ getfacl -R <dir>
