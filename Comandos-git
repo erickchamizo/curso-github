@@ -83,4 +83,7 @@ Durante essas transições, você pode usar comandos como git status para verifi
 entre as versões. Essas operações fazem parte do fluxo de trabalho do Git para rastrear e gerenciar as mudanças em seus projetos.
 
 
-Teste de novo 
+69262 - [ Gera PE ] - Correções de Vulnerabilidades NPVMPW19AS01 / NPVMPW19AS02 NPVMPW19DC01
+69298 - [ Gera PE ] - Correções de Vulnerabilidades NPVMPW19AS03 / NPVMPW19AS04 / NPVMPW19DC02
+69302 - [ Gera PE ] - Correções de Vulnerabilidades NPVMPW19AS05 / NPVMPW19QA01
+ 
